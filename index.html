@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  ">
+    <div class="container">
+      <a class="navbar-brand w-50 text-white d-flex align-items-center" href="#">
+        <img src="imges/logo@2x.png" class=" img-fluid" alt="">
+        <p>weather</p>
+      </a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class=" navbar-nav w-100  justify-content-around mb-2 mb-lg-0 ">
+          <li class="nav-item    me-3">
+            <a class="nav-link text-white " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">News</a>
+          </li>
+          <li class="nav-item   ">
+            <a class="nav-link text-white" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item   ">
+            <a class="nav-link text-white" href="#">Photo</a>
+          </li>
+          <li class="nav-item   ">
+            <a class="nav-link text-white " href="#">contact</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="landing">
+    <form action="" class="find-location py-5 w-75 m-auto">
+      <input id="inp" class="form-control rounded-5" type="text" placeholder="find your location">
+      <button id="btn" class="btn  rounded-5 ">Find</button>
+    </form>
+
+    <div class="main-box w-75 m-auto d-lg-flex  d-sm-block">
+      <div id="firstBox" class="box col-lg-4 col-md-12  ">
+        
+      </div>
+
+      <div id="secBox" class="mid-box text-center text-white col-lg-4 col-md-12">
+        
+      </div>
+      <div id="lastBox" class="mid-box last text-center text-white col-lg-4 col-md-12">
+        
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer py-4">
+    <div class="content d-flex align-items-center justify-content-around px-5">
+      <form action="" class="find-location py-5 w-50 ">
+        <input id="inp" class="form-control rounded-5" type="text" placeholder="Enter your eamil to sub">
+        <button id="btn" class="btn  rounded-5 ">Find</button>
+      </form>
+
+      <div class="icons d-flex ">
+        <a  href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a  href=""><i class="fa-brands fa-twitter"></i></a>
+        <a  href=""><i class="fa-brands fa-instagram"></i></a>
+        <a  href=""><i class="fa-brands fa-linkedin"></i></a>
+       
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
